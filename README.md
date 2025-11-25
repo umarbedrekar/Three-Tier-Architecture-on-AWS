@@ -21,7 +21,7 @@ The three-tier architecture separates concerns into distinct layers:
 
 ### Networking Setup
 The foundation of our architecture is built on a custom VPC with properly segmented subnets:
-
+screenshots/Screenshot 2.png
 - VPC Dashboard  
 - Resource Map  
 - Subnets  
