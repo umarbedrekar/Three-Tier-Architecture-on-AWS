@@ -21,7 +21,17 @@ The three-tier architecture separates concerns into distinct layers:
 
 ### Networking Setup
 The foundation of our architecture is built on a custom VPC with properly segmented subnets:
+
 <img width="1920" height="1080" alt="Screenshot 1" src="https://github.com/user-attachments/assets/81b5276c-90e5-42af-9152-df95fab7aaeb" />
+<img width="1920" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/3567c525-c11f-4368-90e0-8df6b74392a2" />
+<img width="1920" height="1080" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8520aa0b-82cb-40ba-b19e-406b4bbe6167" />
+<img width="1920" height="1080" alt="Screenshot 4" src="https://github.com/user-attachments/assets/3d490c3b-7fe3-4a0c-9224-a2d112b4d6b3" />
+<img width="1920" height="1080" alt="Screenshot 5" src="https://github.com/user-attachments/assets/ec2b802a-5f66-42c3-a61e-77cf64b00142" />
+
+
+
+
+
 
 - VPC Dashboard  
 - Resource Map  
