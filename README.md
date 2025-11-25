@@ -6,46 +6,46 @@ It consists of Web Tier, Application Tier, and Database Tier, with proper networ
 📌 Architecture Overview
 🔹 Web Tier
 
-Public Subnets
+.Public Subnets
 
-EC2 Web Servers
+.EC2 Web Servers
 
-Application Load Balancer
+.Application Load Balancer
 
-Handles incoming HTTP/HTTPS requests
+.Handles incoming HTTP/HTTPS requests
 
 🔹 Application Tier
 
-Private Subnets
+.Private Subnets
 
-EC2 App Servers
+.EC2 App Servers
 
-Processes backend logic
+.Processes backend logic
 
-Only receives traffic from Web Tier
+.Only receives traffic from the Web Tier
 
 🔹 Database Tier
 
-Private DB Subnets
+.Private DB Subnets
 
-Amazon RDS (MySQL/PostgreSQL)
+.Amazon RDS (MySQL/PostgreSQL)
 
-Accessible only from Application Tier
+.Accessible only from the Application Tier
 
 🚀 AWS Services Used
 
-Amazon VPC
+.Amazon VPC
 
-Public & Private Subnets
+.Public & Private Subnets
 
-EC2
+.EC2
 
-Application Load Balancer (ALB)
+.Application Load Balancer (ALB)
 
-RDS MySQL
+.RDS MySQL
 
-S3 Bucket (for static files)
+.S3 Bucket (for static files)
 
-NAT Gateway
+.NAT Gateway
 
-IAM Roles
+.IAM Roles
