@@ -48,8 +48,14 @@ The web tier consists of:
 - Internet-facing Application Load Balancer  
 - Custom AMI for consistent deployment  
 
-**Screenshots:**  
-![Web Tier](./screenshots/1234-1.png)
+<img width="1920" height="1080" alt="Screenshot 6" src="https://github.com/user-attachments/assets/2df7c31a-6b13-4241-9d52-3c979cfdbcef" />
+<img width="1920" height="1080" alt="Screenshot 7" src="https://github.com/user-attachments/assets/b454cb49-2d3a-4f1a-bff1-da1d577e3de9" />
+<img width="1920" height="1080" alt="Screenshot 8" src="https://github.com/user-attachments/assets/d3df167b-1441-44d8-8a15-43ca3190e451" />
+<img width="1920" height="1080" alt="Screenshot 9" src="https://github.com/user-attachments/assets/96da1f93-13b3-4bf3-bb22-b980aaa0c0db" />
+
+
+
+
 
 ---
 
@@ -60,8 +66,10 @@ The application tier includes:
 - Auto-scaling group of application servers  
 - Custom AMI with application code  
 
-**Screenshots:**  
-![Application Tier](./screenshots/1234-2.png)
+<img width="1920" height="1080" alt="Screenshot 10" src="https://github.com/user-attachments/assets/ffc46688-ffa1-4e0a-9b3d-806dbdcfe8fd" />
+<img width="1920" height="1080" alt="Screenshot 11" src="https://github.com/user-attachments/assets/0ea64532-d48d-4797-a150-99ad445383f3" />
+
+
 
 ---
 
@@ -70,8 +78,8 @@ The database tier uses Amazon RDS with MySQL:
 
 - RDS Database in private subnets  
 
-**Screenshots:**  
-![Database Tier](./screenshots/1234-3.png)
+<img width="1920" height="1080" alt="Screenshot 12" src="https://github.com/user-attachments/assets/b063051c-8726-484f-a0a8-b061fdc4dec3" />
+
 
 ---
 
@@ -81,8 +89,15 @@ For performance and scalability, we implemented:
 - CloudFront distribution for content delivery  
 - S3 buckets for image storage  
 
-**Screenshots:**  
-![Content Delivery](./screenshots/1234-4.png)
+<img width="1920" height="1080" alt="Screenshot 13" src="https://github.com/user-attachments/assets/fab8f169-9693-4dc4-b2a2-148f025f1c54" />
+<img width="1920" height="1080" alt="Screenshot 16" src="https://github.com/user-attachments/assets/96c81e44-c976-48a1-83ed-bfb07a018d3e" />
+<img width="1920" height="1080" alt="Screenshot 14" src="https://github.com/user-attachments/assets/b323c613-9599-4c7b-93bc-24f9648eca3d" />
+<img width="1920" height="1080" alt="Screenshot 15" src="https://github.com/user-attachments/assets/5bbd0663-8670-44f3-a5fc-4458b1812ef8" />
+
+
+
+
+
 
 ---
 
