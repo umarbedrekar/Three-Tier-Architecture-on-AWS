@@ -22,11 +22,16 @@ The three-tier architecture separates concerns into distinct layers:
 ### Networking Setup
 The foundation of our architecture is built on a custom VPC with properly segmented subnets:
 
-<img width="1920" height="1080" alt="Screenshot 1" src="https://github.com/user-attachments/assets/81b5276c-90e5-42af-9152-df95fab7aaeb" />
-<img width="1920" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/3567c525-c11f-4368-90e0-8df6b74392a2" />
-<img width="1920" height="1080" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8520aa0b-82cb-40ba-b19e-406b4bbe6167" />
-<img width="1920" height="1080" alt="Screenshot 4" src="https://github.com/user-attachments/assets/3d490c3b-7fe3-4a0c-9224-a2d112b4d6b3" />
-<img width="1920" height="1080" alt="Screenshot 5" src="https://github.com/user-attachments/assets/ec2b802a-5f66-42c3-a61e-77cf64b00142" />
+<img width="1920" height="918" alt="Screenshot 1" src="https://github.com/user-attachments/assets/b414c995-b9d6-4a9f-aaa4-caca7c32a932" />
+<img width="1920" height="919" alt="Screenshot 2" src="https://github.com/user-attachments/assets/b9a1594a-2e9d-4d7b-adb1-806786484ecc" />
+<img width="1920" height="916" alt="Screenshot 3" src="https://github.com/user-attachments/assets/a80c6af3-0da5-455f-b4b1-5625530ac7be" />
+<img width="1920" height="903" alt="Screenshot 4" src="https://github.com/user-attachments/assets/3bbdd236-f341-44a4-b7d7-71bd07638d43" />
+<img width="1920" height="908" alt="Screenshot 5" src="https://github.com/user-attachments/assets/da518a91-7299-43f6-822e-da8cef68eda7" />
+
+
+
+
+
 
 
 
@@ -48,10 +53,14 @@ The web tier consists of:
 - Internet-facing Application Load Balancer  
 - Custom AMI for consistent deployment  
 
-<img width="1920" height="1080" alt="Screenshot 6" src="https://github.com/user-attachments/assets/2df7c31a-6b13-4241-9d52-3c979cfdbcef" />
-<img width="1920" height="1080" alt="Screenshot 7" src="https://github.com/user-attachments/assets/b454cb49-2d3a-4f1a-bff1-da1d577e3de9" />
-<img width="1920" height="1080" alt="Screenshot 8" src="https://github.com/user-attachments/assets/d3df167b-1441-44d8-8a15-43ca3190e451" />
-<img width="1920" height="1080" alt="Screenshot 9" src="https://github.com/user-attachments/assets/96da1f93-13b3-4bf3-bb22-b980aaa0c0db" />
+<img width="1920" height="906" alt="Screenshot 6" src="https://github.com/user-attachments/assets/b7f982e5-b3f6-4e83-a781-e05408d8a2bb" />
+<img width="1920" height="914" alt="Screenshot 7" src="https://github.com/user-attachments/assets/e147ebb5-9dfc-4559-ad68-9c29c498c4db" />
+<img width="1920" height="916" alt="Screenshot 8" src="https://github.com/user-attachments/assets/346572c2-43bc-4457-91e2-48bdb2c708a2" />
+<img width="1920" height="918" alt="Screenshot 9" src="https://github.com/user-attachments/assets/4c045227-68f2-4ad5-95c8-7659a81dba6d" />
+
+
+
+
 
 
 
@@ -66,8 +75,10 @@ The application tier includes:
 - Auto-scaling group of application servers  
 - Custom AMI with application code  
 
-<img width="1920" height="1080" alt="Screenshot 10" src="https://github.com/user-attachments/assets/ffc46688-ffa1-4e0a-9b3d-806dbdcfe8fd" />
-<img width="1920" height="1080" alt="Screenshot 11" src="https://github.com/user-attachments/assets/0ea64532-d48d-4797-a150-99ad445383f3" />
+<img width="1920" height="910" alt="Screenshot 10" src="https://github.com/user-attachments/assets/ef135c7d-9c4f-4547-9ec4-6bcda94c23dc" />
+<img width="1920" height="906" alt="Screenshot 11" src="https://github.com/user-attachments/assets/e66505d9-6abc-4c40-b172-bb82cd3d3131" />
+
+
 
 
 
@@ -78,7 +89,8 @@ The database tier uses Amazon RDS with MySQL:
 
 - RDS Database in private subnets  
 
-<img width="1920" height="1080" alt="Screenshot 12" src="https://github.com/user-attachments/assets/b063051c-8726-484f-a0a8-b061fdc4dec3" />
+<img width="1920" height="908" alt="Screenshot 12" src="https://github.com/user-attachments/assets/ba910e4e-edea-4894-9be7-0c44f3b2b011" />
+
 
 
 ---
@@ -87,12 +99,19 @@ The database tier uses Amazon RDS with MySQL:
 For performance and scalability, we implemented:
 
 - CloudFront distribution for content delivery  
-- S3 buckets for image storage  
+- S3 buckets for image storage
 
-<img width="1920" height="1080" alt="Screenshot 13" src="https://github.com/user-attachments/assets/fab8f169-9693-4dc4-b2a2-148f025f1c54" />
-<img width="1920" height="1080" alt="Screenshot 16" src="https://github.com/user-attachments/assets/96c81e44-c976-48a1-83ed-bfb07a018d3e" />
-<img width="1920" height="1080" alt="Screenshot 14" src="https://github.com/user-attachments/assets/b323c613-9599-4c7b-93bc-24f9648eca3d" />
-<img width="1920" height="1080" alt="Screenshot 15" src="https://github.com/user-attachments/assets/5bbd0663-8670-44f3-a5fc-4458b1812ef8" />
+<img width="1920" height="906" alt="Screenshot 13" src="https://github.com/user-attachments/assets/779aac71-c285-4037-9ed1-6fb727674738" />
+<img width="1760" height="1080" alt="Screenshot 16" src="https://github.com/user-attachments/assets/d849f7fd-dd54-41e0-a948-88674653558e" />
+<img width="1920" height="980" alt="Screenshot 14" src="https://github.com/user-attachments/assets/cc580ccf-0c24-46f2-ad8e-8afc4f4a90b8" />
+<img width="1920" height="982" alt="Screenshot 15" src="https://github.com/user-attachments/assets/d21817d4-429c-4353-ac17-14828e31c8d7" />
+
+
+
+
+
+
+
 
 
 
