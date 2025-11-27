@@ -22,11 +22,16 @@ The three-tier architecture separates concerns into distinct layers:
 ### Networking Setup
 The foundation of our architecture is built on a custom VPC with properly segmented subnets:
 
-<img width="1920" height="918" alt="Screenshot 1" src="https://github.com/user-attachments/assets/b414c995-b9d6-4a9f-aaa4-caca7c32a932" />
-<img width="1920" height="919" alt="Screenshot 2" src="https://github.com/user-attachments/assets/b9a1594a-2e9d-4d7b-adb1-806786484ecc" />
-<img width="1920" height="916" alt="Screenshot 3" src="https://github.com/user-attachments/assets/a80c6af3-0da5-455f-b4b1-5625530ac7be" />
-<img width="1920" height="903" alt="Screenshot 4" src="https://github.com/user-attachments/assets/3bbdd236-f341-44a4-b7d7-71bd07638d43" />
-<img width="1920" height="908" alt="Screenshot 5" src="https://github.com/user-attachments/assets/da518a91-7299-43f6-822e-da8cef68eda7" />
+<img width="1920" height="1080" alt="Screenshot (01)" src="https://github.com/user-attachments/assets/f1615cb3-bad8-463d-b4ba-bf4a4e9e62f4" />
+<img width="1920" height="918" alt="Screenshot 02" src="https://github.com/user-attachments/assets/dddb62ff-6c8a-4aaf-a118-2cda0ec0bf2c" />
+<img width="1920" height="919" alt="Screenshot 03" src="https://github.com/user-attachments/assets/9a4bb90d-97e5-4e65-ac39-47817598da97" />
+<img width="1920" height="916" alt="Screenshot 04" src="https://github.com/user-attachments/assets/7f9fa23d-2750-46e7-9405-0d237bdb0f9d" />
+<img width="1920" height="903" alt="Screenshot 05" src="https://github.com/user-attachments/assets/cc392c3b-a7bc-4943-9fd0-980c3af4b495" />
+
+
+
+
+
 
 
 
@@ -53,10 +58,14 @@ The web tier consists of:
 - Internet-facing Application Load Balancer  
 - Custom AMI for consistent deployment  
 
-<img width="1920" height="906" alt="Screenshot 6" src="https://github.com/user-attachments/assets/b7f982e5-b3f6-4e83-a781-e05408d8a2bb" />
-<img width="1920" height="914" alt="Screenshot 7" src="https://github.com/user-attachments/assets/e147ebb5-9dfc-4559-ad68-9c29c498c4db" />
-<img width="1920" height="916" alt="Screenshot 8" src="https://github.com/user-attachments/assets/346572c2-43bc-4457-91e2-48bdb2c708a2" />
-<img width="1920" height="918" alt="Screenshot 9" src="https://github.com/user-attachments/assets/4c045227-68f2-4ad5-95c8-7659a81dba6d" />
+<img width="1920" height="908" alt="Screenshot 06" src="https://github.com/user-attachments/assets/1541aae2-836a-469b-91db-f6332bd3ee7f" />
+<img width="1920" height="906" alt="Screenshot 07" src="https://github.com/user-attachments/assets/3deeb7cb-d010-4a1b-b0aa-dc4538367c58" />
+<img width="1920" height="914" alt="Screenshot 08" src="https://github.com/user-attachments/assets/335cbcdd-3270-4d0a-a75c-7199640d28da" />
+<img width="1920" height="916" alt="Screenshot 09" src="https://github.com/user-attachments/assets/eece2494-b754-49c4-8961-14a16a9a08e9" />
+
+
+
+
 
 
 
