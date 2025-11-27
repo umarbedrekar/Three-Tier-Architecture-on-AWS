@@ -110,7 +110,10 @@ For performance and scalability, we implemented:
 - CloudFront distribution for content delivery  
 - S3 buckets for image storage
 
-<img width="1920" height="906" alt="Screenshot 13" src="https://github.com/user-attachments/assets/779aac71-c285-4037-9ed1-6fb727674738" />
+
+
+<img width="1920" height="906" alt="Screenshot 07" src="https://github.com/user-attachments/assets/22d74ebe-8b3b-42dc-adb4-d95557ac8d32" />
+
 <img width="1760" height="1080" alt="Screenshot 16" src="https://github.com/user-attachments/assets/d849f7fd-dd54-41e0-a948-88674653558e" />
 <img width="1920" height="980" alt="Screenshot 14" src="https://github.com/user-attachments/assets/cc580ccf-0c24-46f2-ad8e-8afc4f4a90b8" />
 <img width="1920" height="982" alt="Screenshot 15" src="https://github.com/user-attachments/assets/d21817d4-429c-4353-ac17-14828e31c8d7" />
