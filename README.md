@@ -87,7 +87,8 @@ The application tier includes:
 - Auto-scaling group of application servers  
 - Custom AMI with application code  
 
-<img width="1920" height="914" alt="Screenshot 08" src="https://github.com/user-attachments/assets/5cfd2c72-5b29-4db3-ae8d-179eab1eac0b" />
+<img width="1920" height="916" alt="Screenshot 09" src="https://github.com/user-attachments/assets/f3be6a4c-0d06-4fd7-af04-df1a7825fef6" />
+
 <img width="1920" height="918" alt="Screenshot 9" src="https://github.com/user-attachments/assets/a8a9fe50-289c-4b6a-8279-5133951d54fc" />
 
 
