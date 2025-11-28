@@ -58,10 +58,13 @@ The web tier consists of:
 - Internet-facing Application Load Balancer  
 - Custom AMI for consistent deployment  
 
-<img width="1920" height="908" alt="Screenshot 06" src="https://github.com/user-attachments/assets/1541aae2-836a-469b-91db-f6332bd3ee7f" />
-<img width="1920" height="906" alt="Screenshot 07" src="https://github.com/user-attachments/assets/3deeb7cb-d010-4a1b-b0aa-dc4538367c58" />
-<img width="1920" height="914" alt="Screenshot 08" src="https://github.com/user-attachments/assets/335cbcdd-3270-4d0a-a75c-7199640d28da" />
-<img width="1920" height="916" alt="Screenshot 09" src="https://github.com/user-attachments/assets/eece2494-b754-49c4-8961-14a16a9a08e9" />
+<img width="1920" height="908" alt="Screenshot 12" src="https://github.com/user-attachments/assets/6a342992-b419-4771-bea9-7f1b12b8c078" />
+<img width="1920" height="906" alt="Screenshot 13" src="https://github.com/user-attachments/assets/5db6ecea-e705-4530-8ba2-9f8ef3b456f9" />
+<img width="1920" height="906" alt="Screenshot 11" src="https://github.com/user-attachments/assets/6e598ac8-86be-46cd-bc59-02186d25e8ad" />
+<img width="1920" height="910" alt="Screenshot 10" src="https://github.com/user-attachments/assets/9167ef44-6fbe-4ffb-ab7e-fbcd4033894e" />
+
+
+
 
 
 
@@ -84,8 +87,10 @@ The application tier includes:
 - Auto-scaling group of application servers  
 - Custom AMI with application code  
 
-<img width="1920" height="910" alt="Screenshot 10" src="https://github.com/user-attachments/assets/ef135c7d-9c4f-4547-9ec4-6bcda94c23dc" />
-<img width="1920" height="906" alt="Screenshot 11" src="https://github.com/user-attachments/assets/e66505d9-6abc-4c40-b172-bb82cd3d3131" />
+<img width="1920" height="914" alt="Screenshot 08" src="https://github.com/user-attachments/assets/5cfd2c72-5b29-4db3-ae8d-179eab1eac0b" />
+<img width="1920" height="918" alt="Screenshot 9" src="https://github.com/user-attachments/assets/a8a9fe50-289c-4b6a-8279-5133951d54fc" />
+
+
 
 
 
@@ -98,7 +103,8 @@ The database tier uses Amazon RDS with MySQL:
 
 - RDS Database in private subnets  
 
-<img width="1920" height="908" alt="Screenshot 12" src="https://github.com/user-attachments/assets/ba910e4e-edea-4894-9be7-0c44f3b2b011" />
+<img width="1920" height="914" alt="Screenshot 08" src="https://github.com/user-attachments/assets/42fd54d7-2e63-44e6-97f7-d1139af81a46" />
+
 
 
 
